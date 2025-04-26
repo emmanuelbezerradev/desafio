@@ -1,15 +1,25 @@
-/* *{
-    padding: 0;
-    border: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.imagem{
-    flex: flex;
-    padding: 30px;
+
+.cadastro{
+    display: flex;
     justify-content: center;
     align-items: center;
-    .calabreso{
-        max-width: 100vh;
-        }  
-} */
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.imagem-login{
+  max-width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-login{
+        width: 100;
+        height: auto;
+    }
+}
